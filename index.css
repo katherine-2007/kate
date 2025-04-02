@@ -1,0 +1,65 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;  /* Color de fondo claro */
+    color: #333;  /* Texto oscuro */
+}
+
+header {
+    background-color: #fff;  /* Fondo blanco */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+nav .nav-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav .nav-link:hover {
+    color: #007bff;  /* Color azul al pasar el ratón */
+    transform: scale(1.1);  /* Efecto de agrandado */
+}
+
+nav .nav-link i {
+    margin-right: 5px;  /* Espacio entre el ícono y el texto */
+}
+
+/* Estilos adicionales */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #555;
+}
